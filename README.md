@@ -1,3 +1,3 @@
-# netflix-react-app
+# netflix-react-tailwind-firebase
 
-En construction...
+Clone de Netflix créé avec React, Tailwind CSS et Firebase.
