@@ -26,7 +26,7 @@ const Navbar = () => {
       </Link>
       {user?.email ? (
       
-      <div>
+      <span>
         <Link to="/account">
           <button className='text-white pr-4'>
           Compte
@@ -40,9 +40,9 @@ const Navbar = () => {
             Se déconnecter
           </button>
   
-      </div> 
+      </span> 
       ) : (
-            <div>
+            <span>
               <Link to="/login">
                 <button className='text-white pr-4'>
                   Connexion
@@ -54,7 +54,7 @@ const Navbar = () => {
                   Inscrivez-vous
                 </button>
               </Link>
-            </div>
+            </span>
        )}
     </div>
   )

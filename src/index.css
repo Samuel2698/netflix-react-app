@@ -8,3 +8,9 @@ body {
     background-color: #000;
     font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 640px) {
+    span button {
+        display: flex;
+    }
+}
